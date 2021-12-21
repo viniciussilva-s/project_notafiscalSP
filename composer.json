@@ -1,0 +1,27 @@
+{
+    "name": "vendor/test",
+    "description": "description test",
+    "authors": [
+        {
+            "name": "Vinicius",
+            "email": "seu@email.com"
+        }
+    ],
+    "keywords": [
+        "NFS",
+        "NFTS",
+        "Emissão Nota Fiscal",
+        "Nota Fiscal",
+        "Nota do Milhão",
+        "Prefeitura São Paulo",
+        "Nota Fiscal Tomador de Serviços"
+    ],
+    "autoload": {
+        "psr-4": {
+            "NotaFiscalSP\\": "vendor/kaleu62/notafiscalsp/src/"
+        }
+    },
+    "require-dev": {
+        "kaleu62/notafiscalsp": "dev-master"
+    }
+}
